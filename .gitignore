@@ -1,0 +1,44 @@
+# Ignore
+.idea/
+*.iml
+
+# Ignora o arquivo HELP.md
+HELP.md
+
+# Ignora a pasta target/
+target/
+
+# Permite o push do maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# Permite o push do diretório target/ dentro de src/main/ e src/test/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Configurações específicas do Spring Tool Suite (STS)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Configurações específicas do IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Configurações específicas do NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Configurações específicas do Visual Studio Code
+.vscode/

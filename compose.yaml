@@ -1,0 +1,12 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql
+    environment:
+      - 'MYSQL_DATABASE=calchimist'
+      - 'MYSQL_PASSWORD=secret'
+      - 'MYSQL_USER=myuser'
+      - 'MYSQL_ROOT_PASSWORD=root'
+    ports:
+      - '13306:3306'
