@@ -12,13 +12,5 @@ public class CalchimistAppApplication {
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(CalchimistAppApplication.class, args);
 
-//		// Obtenha uma instância de UsuarioControlador do contexto Spring
-//		UsuarioControlador usuarioControlador = context.getBean(UsuarioControlador.class);
-//
-//		// Crie uma instância de UsuarioTela e injete o UsuarioControlador
-//		UsuarioTela usuarioTela = new UsuarioTela(usuarioControlador);
-//
-//		// Execute a interface do usuário
-//		UsuarioTela.executar();
 	}
 }
